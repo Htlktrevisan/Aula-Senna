@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/225px-DC_Comics_logo.svg.png" type="image/x-icon">
+    <title>Cadastro na DC COMICS</title>
+</head>
+<body>
+    
+    <h1>CADASTRO DE PERFIL</h1>
+    
+    <div class="container">
+        
+     <img class="foto1" src="https://i.pinimg.com/736x/cf/8b/23/cf8b2388dfcc1c8582e7828c799239ea.jpg" alt="Foto da DC"><br>
+
+     <label for="date">Nome completo:</label>
+     <input type="text" id="nome" name="nome" placeholder="nome"><br>
+
+     <label for="date"> Data de nascimento:</label>
+     <input type="date" id="data" name="data" value="data"><br> 
+
+     <label for="date">Seu Email:</label>
+     <input type="email" id="email" name="email" placeholder="email"><br>
+
+     <label for="date"> Senha:</label>
+     <input type="password" id="senha" name="senha"placeholder="senha"><br>
+
+     <!-- checkbox -->
+     
+     <div class="Gostos">
+     <h3> Herois favoritos: </h3>
+     <!-- Batman -->
+     <input type="checkbox" id="Batman" name="herois" value="Batman">
+     <label for="Batman"> Batman </label>
+     <!-- Superman -->
+     <input type="checkbox" id="Superman" name="herois" value="Superman">
+     <label for="Superman"> Superman </label>
+     
+     <!-- Flash -->
+     <input type="checkbox" id="Flash" name="herois" value="Flash">
+     <label for="Flash"> Flash </label>
+
+     </div>
+     
+     <!-- Radio  -->
+      
+     <div class="fã">
+     <h3> O quao fã você é: </h3>
+
+     <input type="radio" id="Pouco" name="Fã" value="Pouco">
+     <label for="Pouco">Pouco</label>
+
+     <input type="radio" id="Mais ou Menos" name="Fã" value="Mais ou Menos">
+     <label for="Mais ou Menos"> Mais ou Menos</label>
+
+     <input type="radio" id="Muito" name="Fã" value="Muito">
+     <label for="Muito"> Muito </label>
+    
+     </div>
+
+     <br>
+
+     <button onclick="Enviar()">Enviar</button>
+
+     
+ 
+    </div>
+    <script src="Atividade.js"></script>
+
+
+</body>
+</html>
