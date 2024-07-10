@@ -1,0 +1,54 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.planocritico.com/wp-content/uploads/2016/05/dc-universe-rebirth-renascimento.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 0;
+}
+
+.tlgd {
+    background-color: white;
+
+    max-width: 40%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 5%;
+
+    border: 2px solid rgb(78, 100, 169);
+    border-radius: 20px;
+}
+
+
+
+.tlgd p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tlgd button{
+    width: 170px;
+    height: 25px;
+
+    font-weight: 600;
+
+    background-color: white;
+    border: 1px solid rgb(78, 100, 169);
+    border-radius: 20px;
+
+    transition: 0.5s;
+    cursor: pointer;
+}
+/* width: 170px;
+    height: 25px;
+
+    font-weight: 600;
+
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 20px;
+
+    transition: 0.5s;
+    cursor: pointer; */
